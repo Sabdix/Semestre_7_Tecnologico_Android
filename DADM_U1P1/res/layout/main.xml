@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tu nombre:"
+        android:background="#00f"
+    />
+    <EditText
+        android:id="@+id/etNombre"
+        android:hint="Ingresa tu nombre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+    />
+    <Button
+        android:text="Saludar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="evtOnClickSaludar"
+    />
+    <Button
+        android:text="Despedir"
+        android:id="@+id/btDespedir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0fc"
+        android:textColor="#fff"
+        android:textStyle="bold"
+    />
+    <Button
+        android:id="@+id/btInvitar"
+        android:text="Invitar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="evtOnClickSaludar"
+        android:drawableTop="@drawable/ic_launcher"
+    />
+</LinearLayout>
+

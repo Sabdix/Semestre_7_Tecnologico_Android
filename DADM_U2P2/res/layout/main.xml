@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="#ff0"
+    >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Este es el activity 1"
+            android:textColor="#f00"
+        />
+        
+        <FrameLayout
+            android:id="@+id/fragmento"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+        />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Aun es el activity 1"
+            android:textColor="#f00"
+        />
+        
+        <Button
+            android:text="Saludar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="evtOnClickSaludar"
+        />
+        
+        
+</LinearLayout>
+

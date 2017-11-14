@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference
+        android:key="pref_cb_name"
+        android:summary="Ingresa tu nombre"
+        android:title="Tu Nombre" /><CheckBoxPreference android:title="Sonido" android:defaultValue="true" android:summary="Apagar y Prender Sonidos prendido / apagado" android:key='pref_cb_sound'/>
+    
+
+</PreferenceScreen>

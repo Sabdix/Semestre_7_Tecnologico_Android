@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MainActivity</string>
+    <string name="titulo_spinner">Destinos Disponibles</string>
+    <string-array name="destinos">
+        <item>Kings Landing</item>
+        <item>Winterfell</item>
+        <item>Castly Rock</item>
+        <item>Vale</item>
+        <item>The Wall</item>
+    </string-array>
+    <string-array name="paquetes">
+        <item>Caballo</item>
+        <item>Carreta</item>
+        <item>Pie</item>
+        <item>Dragon</item>
+    </string-array>
+</resources>

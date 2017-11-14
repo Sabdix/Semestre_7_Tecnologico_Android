@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Guide Labs</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer</string>
+    <string name="landscape_fullscreen">Click on check for full screen video in landscape mode</string>
+    <string name="enter_fullscreen">Enter Fullscreen</string>
+</resources>

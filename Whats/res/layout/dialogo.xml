@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wasa6"
+    android:gravity="center"
+>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IP:"
+        android:textColor="#fff"
+        android:textStyle="bold"
+    />
+    <EditText
+        android:id="@+id/etIP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa dirección IP destino"
+        android:textColor="#0f0"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Puerto:"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:inputType="textUri"
+    />
+    <EditText
+        android:id="@+id/etPuerto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa número de puerto (1025 - 65500)"
+        android:textColor="#0f5"
+        android:inputType="number"
+    />
+    <Button
+        android:id="@+id/btConectar"
+        android:text="   Conectar   "
+        android:textSize="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:background="#32cd32"
+    />
+</LinearLayout>

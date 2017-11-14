@@ -1,0 +1,19 @@
+# view AndroidManifest.xml #generated:15
+-keep class com.torneo.Finales { <init>(...); }
+
+# view AndroidManifest.xml #generated:7
+-keep class com.torneo.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:14
+-keep class com.torneo.Semifinal { <init>(...); }
+
+# onClick res/layout/main.xml #generated:76
+# onClick res/layout/semifinal.xml #generated:47
+-keepclassmembers class * { *** evtOnClickSiguiente(...); }
+
+# onClick res/layout/finales.xml #generated:19
+-keepclassmembers class * { *** onRadioButtonClicked0(...); }
+
+# onClick res/layout/finales.xml #generated:24
+-keepclassmembers class * { *** onRadioButtonClicked1(...); }
+

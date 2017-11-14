@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Elige que quieres Comprar"
+    />
+    
+    <Button
+        android:id="@+id/btSoftware"
+        android:text="Software"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Software"
+    />
+    
+    <Button
+        android:id="@+id/btJuegos"
+        android:text="Juegos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Juegos"
+    />
+    
+    <Button
+        android:id="@+id/btHardware"
+        android:text="Hardware"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Hardware"
+    />
+    
+    <Button
+        android:id="@+id/btTotal"
+        android:text="Carrito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Total"
+    />
+</LinearLayout>
+

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+        >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre"
+            />
+
+            <EditText
+                android:id="@+id/etNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Escriba Nombre"
+            />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edad"
+            />
+
+            <EditText
+                android:id="@+id/etEdad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Edad"
+            />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Labora"
+            />
+            <EditText
+                android:id="@+id/etTrabaja"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Si o No"
+            />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Es Profesionista"
+            />
+            <EditText
+                android:id="@+id/etProfesion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Si o No"
+            />
+            
+             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sueldo Mensual"
+            />
+            <EditText
+                android:id="@+id/etSueldo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="$$$"
+            />
+            
+            <Button
+                android:id="@+id/btAgregar"
+                android:text="Agregar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

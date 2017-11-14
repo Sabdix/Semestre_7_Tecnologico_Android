@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@drawable/fondo"
+>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Mensaje"
+        android:textColor="#0f0"
+    />
+    <EditText
+        android:id="@+id/etMensaje"
+        android:hint="Ingresa tu Mensaje"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:inputType="text"
+        android:gravity="start"
+    />
+    <Button
+        android:text="Enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="evtOnClickEnviar"
+    />
+    
+</LinearLayout>
+

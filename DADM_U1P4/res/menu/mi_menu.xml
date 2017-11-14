@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuSaluda"
+        android:title="Saludar"
+    />
+    <item
+        android:id="@+id/menuDespide"
+        android:title="Despedir"
+    />
+    <item
+        android:id="@+id/menuInvita"
+        android:title="Invitar"
+    />
+</menu>

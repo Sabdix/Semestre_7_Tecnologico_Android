@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#282121"
+>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+    >
+        <ImageView
+            android:id="@+id/ivRenglonImagenAlbum"
+            android:src="@drawable/spotify"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+        />
+        <TextView
+            android:id="@+id/tvRenglonAlbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#e6e6e6"
+            android:text="Album"
+            android:textStyle="italic"
+            android:textSize="8sp"
+        />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvRenglonMusica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#e6e6e6"
+        android:text="Desconocida"
+        android:textStyle="bold"
+    />
+</LinearLayout>

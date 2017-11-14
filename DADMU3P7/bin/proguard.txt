@@ -1,0 +1,45 @@
+# view res/layout/aplicaciones.xml #generated:8
+-keep class android.support.v4.view.PagerTabStrip { <init>(...); }
+
+# view res/layout/aplicaciones.xml #generated:2
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:20
+-keep class com.Activities.Aplicaciones { <init>(...); }
+
+# view AndroidManifest.xml #generated:23
+-keep class com.Activities.AppCalendario { <init>(...); }
+
+# view AndroidManifest.xml #generated:18
+-keep class com.Activities.Inicio { <init>(...); }
+
+# view AndroidManifest.xml #generated:10
+-keep class com.Activities.MainActivity { <init>(...); }
+
+# onClick res/layout/inicio.xml #generated:28
+-keepclassmembers class * { *** eventoAplicaciones(...); }
+
+# onClick res/layout/main.xml #generated:40
+-keepclassmembers class * { *** eventoAvatar1(...); }
+
+# onClick res/layout/main.xml #generated:61
+-keepclassmembers class * { *** eventoAvatar2(...); }
+
+# onClick res/layout/main.xml #generated:216
+-keepclassmembers class * { *** eventoBorrar(...); }
+
+# onClick res/layout/main.xml #generated:108
+# onClick res/layout/main.xml #generated:117
+# onClick res/layout/main.xml #generated:132
+# onClick res/layout/main.xml #generated:141
+# onClick res/layout/main.xml #generated:150
+# onClick res/layout/main.xml #generated:165
+# onClick res/layout/main.xml #generated:174
+# onClick res/layout/main.xml #generated:183
+# onClick res/layout/main.xml #generated:198
+# onClick res/layout/main.xml #generated:99
+-keepclassmembers class * { *** eventoNumeros(...); }
+
+# onClick res/layout/main.xml #generated:207
+-keepclassmembers class * { *** eventoOk(...); }
+

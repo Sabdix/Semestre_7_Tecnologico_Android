@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity"
+    />
+    <EditText
+        android:id="@+id/etActivity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mensaje de Fragmento"
+    />
+    <Button
+        android:text="Comunicar F1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="evtOnClickComunicarF1"
+    />
+    <fragment
+        android:id="@+id/fragmento1"
+        android:name="com.Fragments.Fragmento1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    />
+</LinearLayout>
+

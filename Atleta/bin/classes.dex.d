@@ -1,0 +1,20 @@
+C:\Users\sabdi\Desktop\Atleta\bin\classes.dex : \
+C:\Users\sabdi\Desktop\Atleta\bin\classes\com\Activities\BuildConfig.class \
+C:\Users\sabdi\Desktop\Atleta\bin\classes\com\Activities\Grafica$1.class \
+C:\Users\sabdi\Desktop\Atleta\bin\classes\com\Activities\Grafica.class \
+C:\Users\sabdi\Desktop\Atleta\bin\classes\com\Activities\MainActivity.class \
+C:\Users\sabdi\Desktop\Atleta\bin\classes\com\Activities\Partido1.class \
+C:\Users\sabdi\Desktop\Atleta\bin\classes\com\Activities\Partido2.class \
+C:\Users\sabdi\Desktop\Atleta\bin\classes\com\Activities\Partido3.class \
+C:\Users\sabdi\Desktop\Atleta\bin\classes\com\Activities\Partido4.class \
+C:\Users\sabdi\Desktop\Atleta\bin\classes\com\Activities\Partido5.class \
+C:\Users\sabdi\Desktop\Atleta\bin\classes\com\Activities\R$attr.class \
+C:\Users\sabdi\Desktop\Atleta\bin\classes\com\Activities\R$drawable.class \
+C:\Users\sabdi\Desktop\Atleta\bin\classes\com\Activities\R$id.class \
+C:\Users\sabdi\Desktop\Atleta\bin\classes\com\Activities\R$layout.class \
+C:\Users\sabdi\Desktop\Atleta\bin\classes\com\Activities\R$string.class \
+C:\Users\sabdi\Desktop\Atleta\bin\classes\com\Activities\R.class \
+C:\Users\sabdi\Desktop\Atleta\bin\classes\com\Clases\Estadistica.class \
+C:\Users\sabdi\Desktop\Atleta\bin\classes\com\Clases\GraficaLinear.class \
+C:\Users\sabdi\Desktop\Atleta\bin\classes\com\Clases\Punto.class \
+C:\Users\sabdi\Desktop\Atleta\bin\dexedLibs\achartengine-0.7.0-4aded46ca02bc0fda13526a74c4a7360.jar \

@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:7
+-keep class com.Activities.MainActivity { <init>(...); }
+
+# view res/layout/main.xml #generated:28
+-keep class com.Fragmentos.Fragmento { <init>(...); }
+

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+>
+    <TableRow>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Office 2016 $2000"
+        />
+        
+        <Button
+            android:id="@+id/btSComprar1"
+            android:text="Comprar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Comprar1"
+        />  
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Windows 10 $2500"
+        />
+        
+        <Button
+            android:id="@+id/btSComprar2"
+            android:text="Comprar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Comprar2"
+        />  
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Norton $500"
+        />
+        
+        <Button
+            android:id="@+id/btSComprar3"
+            android:text="Comprar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Comprar3"
+        />  
+    </TableRow>
+    
+    
+</TableLayout>
+

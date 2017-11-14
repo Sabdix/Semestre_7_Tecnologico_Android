@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+>
+    <TextView
+            android:id="@+id/tvTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Niños: "
+    />
+    <EditText
+            android:id="@+id/etNino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Cantidad"
+    />
+    <Button
+            android:id="@+id/btAgregarNino"
+            android:text="Guardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    />
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+        <fragment
+            android:id="@+id/fragmento1"
+            android:name="com.Fragmentos.Fragmento1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+        />
+        <fragment
+            android:id="@+id/fragmento2"
+            android:name="com.Fragmentos.Fragmento2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+        />
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Examen</string>
+    <string name="titulo_spinner">Opciones</string>
+    <string-array name="destinos">
+        <item>Agregar</item>
+        <item>Cancelar</item>
+    </string-array>
+</resources>

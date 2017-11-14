@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/linearTercero">
+    
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="FINAL"
+    />
+    
+    <RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/partidoFinal">
+    <RadioButton android:id="@+id/vsF1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UMSNH"
+        android:onClick="onRadioButtonClicked0"/>
+    <RadioButton android:id="@+id/vsF2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ITM"
+        android:onClick="onRadioButtonClicked1"/>
+</RadioGroup>
+    
+     <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="40dp"
+    android:id="@+id/verGanador"
+     />
+    
+    
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Computadoras</string>
+    <string name="titulo_spinner">Componentes</string>
+    <string-array name="componentes">
+        <item>Memoria Ram</item>
+        <item>Tarjeta Madre</item>
+        <item>Procesador</item>
+        <item>Fuente de Poder</item>
+        <item>Disco Duro</item>
+        <item>Unidad de Disco</item>
+        <item>Cooler</item>
+    </string-array>
+</resources>

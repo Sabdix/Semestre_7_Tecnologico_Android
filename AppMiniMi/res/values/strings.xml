@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DisqueOS</string>
+    
+
+    <string name="hello_world">Hola</string>
+    <string name="about">Acerca</string>
+    <string name="title">Título : </string>
+    <string name="menu_delete">Borrar</string>
+    <string name="no_title">Sin Titulo</string>
+    <string name="edit_note">Editar Nota</string>
+    <string name="save_menu_noteedit">Guardar</string>
+    <string name="delete_menu_noteedit">Borrar</string>
+
+    <string name="title_borrar">Eliminar</string>
+    <string name="title_editar">Editar</string>
+    <string name="title_llamar">Llamar</string>
+
+
+
+    <string name="media_dialog">Preview de Media</string>
+    <string name="dir_info">Info de Carpeta</string>
+    <string name="manager_act">Admin del Cel</string>
+    <string name="help">"Reglas del Juego - 
+        La premisa basica es lograr 21, lograr menos de 21 que la PC pero sin pasarte de 21.
+
+        Valores de Cartas - 
+
+        * El A´s cuenta por 1 u 11.
+        * Las cartas del 2 al 9 tienen el valor de acuerdo a su cara.
+        * El 10, Jack, Reyna y Rey valen 10.
+
+        El valor de  una mano son los ´puntos totales logrados en las cartas. Por ejemplo la mano (5,7,8) tiene el valor 20.
+
+        A's contarán por 1 solo si te pasas de 21 o si hay dos Aces en la mano.
+        Por ejemplo, una mano que contiene (A,7) tiene el valor 18. Una mano que contiene (A,7,8) tiene el valor de 16. Aquí el A's cuenta por 1.
+
+        Botones - 
+
+        	
+                Tomar Carta - Tomas una carta.
+                Parar - Te detienes en el total obtenido
+        	Rendire - Pierdes la mitad de tu apuesta.	
+        "
+	
+	
+	</string>
+	
+</resources>

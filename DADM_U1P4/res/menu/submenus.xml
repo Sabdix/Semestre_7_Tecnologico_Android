@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_launcher"
+        android:title="Opciones"
+    >
+        <menu>
+            <item
+                android:id="@+id/submenuSaluda"
+                android:title="Saludar"
+            />
+            <item
+                android:id="@+id/submenuDespide"
+                android:title="Despedir"
+            />
+            <item
+                android:id="@+id/submenuInvita"
+                android:title="Invitar"
+            />
+        </menu>
+    </item>
+</menu>

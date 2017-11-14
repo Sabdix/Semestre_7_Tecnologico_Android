@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/negro"
+>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="220dp"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+    >
+        <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        >
+            <TextView
+            android:id="@+id/tvNombre"
+            android:textSize="20sp"
+            android:text="MP3PLAYER MSYC"
+            android:textColor="#EAF2FD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+        />
+         <ImageView
+            android:id="@+id/ivPortada"
+            android:src="@drawable/discodos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="18dp"
+            android:paddingBottom="10dp"
+          />
+
+        
+        </LinearLayout>
+       
+    <!--Falla lalista y el twxto -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+    >
+        <ImageButton
+            android:id="@+id/btnPause"
+            android:src="@drawable/pauserojo" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            
+            android:background="@android:color/transparent"
+        />
+        
+        <ImageButton
+            android:id="@+id/btnStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:src="@drawable/stoprojo"
+            android:background="@android:color/transparent"
+        />
+        
+         
+    </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+    >
+        <ListView
+        android:id="@+id/lvArchivosEncontrados"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+    </LinearLayout>
+     
+   
+    
+</LinearLayout>

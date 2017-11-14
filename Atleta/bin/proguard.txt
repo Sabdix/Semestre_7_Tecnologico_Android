@@ -1,0 +1,37 @@
+# view AndroidManifest.xml #generated:19
+-keep class com.Activities.Grafica { <init>(...); }
+
+# view AndroidManifest.xml #generated:7
+-keep class com.Activities.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:14
+-keep class com.Activities.Partido1 { <init>(...); }
+
+# view AndroidManifest.xml #generated:15
+-keep class com.Activities.Partido2 { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class com.Activities.Partido3 { <init>(...); }
+
+# view AndroidManifest.xml #generated:17
+-keep class com.Activities.Partido4 { <init>(...); }
+
+# view AndroidManifest.xml #generated:18
+-keep class com.Activities.Partido5 { <init>(...); }
+
+# onClick res/layout/main.xml #generated:18
+-keepclassmembers class * { *** evtPartido1(...); }
+
+# onClick res/layout/partido1.xml #generated:56
+# onClick res/layout/partido2.xml #generated:56
+-keepclassmembers class * { *** evtPartido2(...); }
+
+# onClick res/layout/partido3.xml #generated:56
+-keepclassmembers class * { *** evtPartido3(...); }
+
+# onClick res/layout/partido4.xml #generated:56
+-keepclassmembers class * { *** evtPartido4(...); }
+
+# onClick res/layout/partido5.xml #generated:56
+-keepclassmembers class * { *** evtPartido5(...); }
+

@@ -1,0 +1,18 @@
+# view AndroidManifest.xml #generated:7
+-keep class com.Activities.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:15
+-keep class com.Activities.Resultado { <init>(...); }
+
+# view res/layout/main.xml #generated:15
+-keep class com.Fragments.Fragmento1 { <init>(...); }
+
+# view res/layout/main.xml #generated:21
+-keep class com.Fragments.Fragmento2 { <init>(...); }
+
+# onClick res/layout/main.xml #generated:27
+-keepclassmembers class * { *** eventoEvaluation(...); }
+
+# onClick res/layout/resultado.xml #generated:16
+-keepclassmembers class * { *** eventoPlayAgain(...); }
+

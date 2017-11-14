@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#e6e6e6"
+    android:gravity="center"
+>
+    <ImageView
+        android:id="@+id/ivAppCalendario"
+        android:layout_width="56px"
+        android:layout_height="56px"
+        android:src="@drawable/calendario"
+    />
+    <ImageView
+        android:id="@+id/ivAppNotas"
+        android:src="@drawable/notasico"
+        android:layout_width="56px"
+        android:layout_height="56px"
+    />
+</LinearLayout>

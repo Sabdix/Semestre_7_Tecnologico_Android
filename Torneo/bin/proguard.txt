@@ -1,0 +1,9 @@
+# view AndroidManifest.xml #generated:15
+-keep class com.torneo.Final { <init>(...); }
+
+# view AndroidManifest.xml #generated:7
+-keep class com.torneo.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:14
+-keep class com.torneo.Semifinal { <init>(...); }
+

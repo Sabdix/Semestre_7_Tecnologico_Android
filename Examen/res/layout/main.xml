@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gobierno de México"
+    />
+    <Button
+        android:id="@+id/btAgregar"
+        android:text="Agregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />
+    <Button
+        android:id="@+id/btPromedioEdad"
+        android:text="Promedio de Edad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />
+    <Button
+        android:id="@+id/btProfesionistas"
+        android:text="Número de Profesionistas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />
+    <Button
+        android:id="@+id/btPromedioSalario"
+        android:text="Promedio Salarial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />
+    
+</LinearLayout>
+

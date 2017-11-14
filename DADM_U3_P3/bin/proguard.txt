@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:8
+-keep class com.Activities.MainActivity { <init>(...); }
+
+# onClick res/layout/main.xml #generated:37
+-keepclassmembers class * { *** eventoEnviar(...); }
+

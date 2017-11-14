@@ -1,0 +1,21 @@
+C:\Users\Alejandra\Documents\NetBeansProjects\DADM_ITICS_U2T2\gen\com\tarea2\activities\R.java \
+ : C:\Users\Alejandra\Documents\NetBeansProjects\DADM_ITICS_U2T2\res\drawable-hdpi\ic_launcher.png \
+C:\Users\Alejandra\Documents\NetBeansProjects\DADM_ITICS_U2T2\res\drawable-ldpi\ic_launcher.png \
+C:\Users\Alejandra\Documents\NetBeansProjects\DADM_ITICS_U2T2\res\drawable-mdpi\ic_launcher.png \
+C:\Users\Alejandra\Documents\NetBeansProjects\DADM_ITICS_U2T2\res\drawable-xhdpi\ic_launcher.png \
+C:\Users\Alejandra\Documents\NetBeansProjects\DADM_ITICS_U2T2\res\layout\cliente.xml \
+C:\Users\Alejandra\Documents\NetBeansProjects\DADM_ITICS_U2T2\res\layout\main.xml \
+C:\Users\Alejandra\Documents\NetBeansProjects\DADM_ITICS_U2T2\res\layout\producto.xml \
+C:\Users\Alejandra\Documents\NetBeansProjects\DADM_ITICS_U2T2\res\layout\rengloncliente.xml \
+C:\Users\Alejandra\Documents\NetBeansProjects\DADM_ITICS_U2T2\res\layout\rengloncomprar.xml \
+C:\Users\Alejandra\Documents\NetBeansProjects\DADM_ITICS_U2T2\res\layout\renglonproducto.xml \
+C:\Users\Alejandra\Documents\NetBeansProjects\DADM_ITICS_U2T2\res\layout\renglonvendedor.xml \
+C:\Users\Alejandra\Documents\NetBeansProjects\DADM_ITICS_U2T2\res\layout\segundo.xml \
+C:\Users\Alejandra\Documents\NetBeansProjects\DADM_ITICS_U2T2\res\layout\tercero.xml \
+C:\Users\Alejandra\Documents\NetBeansProjects\DADM_ITICS_U2T2\res\layout\vendedor.xml \
+C:\Users\Alejandra\Documents\NetBeansProjects\DADM_ITICS_U2T2\res\values\strings.xml \
+C:\Users\Alejandra\Documents\NetBeansProjects\DADM_ITICS_U2T2\bin\res\drawable-hdpi\ic_launcher.png \
+C:\Users\Alejandra\Documents\NetBeansProjects\DADM_ITICS_U2T2\bin\res\drawable-ldpi\ic_launcher.png \
+C:\Users\Alejandra\Documents\NetBeansProjects\DADM_ITICS_U2T2\bin\res\drawable-mdpi\ic_launcher.png \
+C:\Users\Alejandra\Documents\NetBeansProjects\DADM_ITICS_U2T2\bin\res\drawable-xhdpi\ic_launcher.png \
+C:\Users\Alejandra\Documents\NetBeansProjects\DADM_ITICS_U2T2\bin\AndroidManifest.xml \

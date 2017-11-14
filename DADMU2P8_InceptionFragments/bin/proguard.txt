@@ -1,0 +1,12 @@
+# view AndroidManifest.xml #generated:7
+-keep class com.Activities.MainActivity { <init>(...); }
+
+# view res/layout/main.xml #generated:25
+-keep class com.Fragments.Fragmento1 { <init>(...); }
+
+# view res/layout/fragmento1.xml #generated:28
+-keep class com.Fragments.Fragmento1_1 { <init>(...); }
+
+# onClick res/layout/main.xml #generated:19
+-keepclassmembers class * { *** evtOnClickComunicarF1(...); }
+

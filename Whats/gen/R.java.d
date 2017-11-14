@@ -1,0 +1,19 @@
+C:\Users\sabdi\Desktop\Whats\gen\com\whats\R.java \
+ : C:\Users\sabdi\Desktop\Whats\res\drawable-hdpi\ic_launcher.png \
+C:\Users\sabdi\Desktop\Whats\res\drawable-ldpi\ic_launcher.png \
+C:\Users\sabdi\Desktop\Whats\res\drawable-mdpi\button_send.png \
+C:\Users\sabdi\Desktop\Whats\res\drawable-mdpi\ic_launcher.png \
+C:\Users\sabdi\Desktop\Whats\res\drawable-mdpi\rounded_edges_1.xml \
+C:\Users\sabdi\Desktop\Whats\res\drawable-mdpi\rounded_edges_2.xml \
+C:\Users\sabdi\Desktop\Whats\res\drawable-mdpi\wasa4.jpg \
+C:\Users\sabdi\Desktop\Whats\res\drawable-mdpi\wasa6.jpg \
+C:\Users\sabdi\Desktop\Whats\res\drawable-xhdpi\ic_launcher.png \
+C:\Users\sabdi\Desktop\Whats\res\layout\dialogo.xml \
+C:\Users\sabdi\Desktop\Whats\res\layout\main.xml \
+C:\Users\sabdi\Desktop\Whats\res\values\strings.xml \
+C:\Users\sabdi\Desktop\Whats\bin\res\drawable-hdpi\ic_launcher.png \
+C:\Users\sabdi\Desktop\Whats\bin\res\drawable-ldpi\ic_launcher.png \
+C:\Users\sabdi\Desktop\Whats\bin\res\drawable-mdpi\button_send.png \
+C:\Users\sabdi\Desktop\Whats\bin\res\drawable-mdpi\ic_launcher.png \
+C:\Users\sabdi\Desktop\Whats\bin\res\drawable-xhdpi\ic_launcher.png \
+C:\Users\sabdi\Desktop\Whats\bin\AndroidManifest.xml \

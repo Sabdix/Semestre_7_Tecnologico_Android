@@ -1,0 +1,6 @@
+# view res/layout/main.xml #generated:1
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:7
+-keep class com.Activities.MainActivity { <init>(...); }
+

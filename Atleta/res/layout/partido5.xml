@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+>
+    <TableRow>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="El jugador jugó"
+        />
+        <CheckBox
+            android:id="@+id/cbJugo5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Gano su equipo"
+        />
+        <CheckBox
+            android:id="@+id/cbGano5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Su participación fue destacada"
+        />
+        <CheckBox
+            android:id="@+id/cbDestacado5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Correcto Estado de Salud"
+        />
+        <CheckBox
+            android:id="@+id/cbSalud5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        />
+    </TableRow>
+    <Button
+        android:text="Siguiente Partido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="evtPartido5"
+    />
+    
+</TableLayout>
+

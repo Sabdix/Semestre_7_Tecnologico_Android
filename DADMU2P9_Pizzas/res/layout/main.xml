@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:gravity="center"
+>
+    <TextView
+        android:id="@+id/tvRes"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />
+    <fragment
+        android:id="@+id/fragmento1"
+        android:name="com.Fragments.Fragmento1"
+        android:layout_width="fill_parent"
+        android:layout_height="175dp"
+    />
+    <fragment
+        android:id="@+id/fragmento2"
+        android:name="com.Fragments.Fragmento2"
+        android:layout_width="fill_parent"
+        android:layout_height="175dp"
+    />
+    <Button
+        android:id="@+id/btEvaluate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Evaluation"
+        android:background="#33cccccc"
+        android:onClick="eventoEvaluation"
+    />
+</LinearLayout>

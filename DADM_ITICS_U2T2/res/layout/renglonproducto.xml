@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:id="@+id/tvNombreProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+    />
+    
+    <TextView
+        android:id="@+id/tvPrecioProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+    />
+    
+    <TextView
+        android:id="@+id/tvCantidadProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+    />
+    
+    <Button
+        android:onClick="borrarProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Borrar Producto"
+    />
+    
+    <Button
+        android:onClick="modificarProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Modificar Producto"
+    />
+    
+</LinearLayout>

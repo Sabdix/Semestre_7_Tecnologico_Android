@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+    <Button
+        android:id="@+id/btSimulacion1"
+        android:text="Iniciar Simulación"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+    />
+    <Button
+        android:id="@+id/btSiguiente1"
+        android:text="Semifinales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/btSimulacion1"
+    />
+    <!--Primer Grupo-->
+    <EditText
+        android:id="@+id/etEquipo1"
+        android:hint="Coloque el nombre del Equipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btSimulacion1"
+        android:layout_alignParentLeft="true"
+    />
+    <TextView
+        android:id="@+id/tvResEquipo1"
+        style="@style/totalBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btSimulacion1"
+        android:layout_toRightOf="@+id/etEquipo1"
+    />
+    <TextView
+        android:id="@+id/VS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VS"
+        android:textSize="30dp"
+        android:layout_below="@+id/btSimulacion1"
+        android:layout_toRightOf="@+id/tvResEquipo1"
+    />
+    <TextView
+        android:id="@+id/tvResEquipo2"
+        style="@style/totalBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btSimulacion1"
+        android:layout_toRightOf="@+id/VS"
+    /> 
+    <EditText
+        android:id="@+id/etEquipo2"
+        android:hint="Coloque el nombre del Equipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btSimulacion1"
+        android:layout_toRightOf="@+id/tvResEquipo2"
+    />
+    
+    <!--Segundo Grupo-->
+    <EditText
+        android:id="@+id/etEquipo3"
+        android:hint="Coloque el nombre del Equipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEquipo1"
+        android:layout_alignParentLeft="true"
+    />
+    <TextView
+        android:id="@+id/tvResEquipo3"
+        style="@style/totalBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEquipo1"
+        android:layout_toRightOf="@+id/etEquipo3"
+    />
+    <TextView
+        android:id="@+id/VS2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VS"
+        android:textSize="30dp"
+        android:layout_below="@+id/etEquipo1"
+        android:layout_toRightOf="@+id/tvResEquipo3"
+    />
+    <TextView
+        android:id="@+id/tvResEquipo4"
+        style="@style/totalBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEquipo1"
+        android:layout_toRightOf="@+id/VS2"
+    /> 
+    <EditText
+        android:id="@+id/etEquipo4"
+        android:hint="Coloque el nombre del Equipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEquipo1"
+        android:layout_toRightOf="@+id/tvResEquipo4"
+    />
+    
+    <!--Tercer Grupo -->
+    <EditText
+        android:id="@+id/etEquipo5"
+        android:hint="Coloque el nombre del Equipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEquipo3"
+        android:layout_alignParentLeft="true"
+    />
+    <TextView
+        android:id="@+id/tvResEquipo5"
+        style="@style/totalBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEquipo3"
+        android:layout_toRightOf="@+id/etEquipo5"
+    />
+    <TextView
+        android:id="@+id/VS3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VS"
+        android:textSize="30dp"
+        android:layout_below="@+id/etEquipo3"
+        android:layout_toRightOf="@+id/tvResEquipo5"
+    />
+    <TextView
+        android:id="@+id/tvResEquipo6"
+        style="@style/totalBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEquipo3"
+        android:layout_toRightOf="@+id/VS3"
+    /> 
+    <EditText
+        android:id="@+id/etEquipo6"
+        android:hint="Coloque el nombre del Equipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEquipo3"
+        android:layout_toRightOf="@+id/tvResEquipo6"
+    />
+    
+    <!--Cuarto Grupo-->
+    <EditText
+        android:id="@+id/etEquipo7"
+        android:hint="Coloque el nombre del Equipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEquipo5"
+        android:layout_alignParentLeft="true"
+    />
+    <TextView
+        android:id="@+id/tvResEquipo7"
+        style="@style/totalBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEquipo5"
+        android:layout_toRightOf="@+id/etEquipo7"
+    />
+    <TextView
+        android:id="@+id/VS4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VS"
+        android:textSize="30dp"
+        android:layout_below="@+id/etEquipo5"
+        android:layout_toRightOf="@+id/tvResEquipo7"
+    />
+    <TextView
+        android:id="@+id/tvResEquipo8"
+        style="@style/totalBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEquipo5"
+        android:layout_toRightOf="@+id/VS4"
+    /> 
+    <EditText
+        android:id="@+id/etEquipo8"
+        android:hint="Coloque el nombre del Equipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEquipo5"
+        android:layout_toRightOf="@+id/tvResEquipo8"
+    />
+</RelativeLayout>
+

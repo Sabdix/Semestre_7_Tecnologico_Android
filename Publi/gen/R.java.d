@@ -1,0 +1,23 @@
+C:\Users\givemesomethingtobel\Documents\NetBeansProjects\Publi\gen\com\Publi\R.java \
+ : C:\Users\givemesomethingtobel\Documents\NetBeansProjects\Publi\res\drawable-hdpi\ic_launcher.png \
+C:\Users\givemesomethingtobel\Documents\NetBeansProjects\Publi\res\drawable-ldpi\ic_launcher.png \
+C:\Users\givemesomethingtobel\Documents\NetBeansProjects\Publi\res\drawable-mdpi\app.jpg \
+C:\Users\givemesomethingtobel\Documents\NetBeansProjects\Publi\res\drawable-mdpi\ic_launcher.png \
+C:\Users\givemesomethingtobel\Documents\NetBeansProjects\Publi\res\drawable-mdpi\publicidad1.jpg \
+C:\Users\givemesomethingtobel\Documents\NetBeansProjects\Publi\res\drawable-mdpi\publicidad2.png \
+C:\Users\givemesomethingtobel\Documents\NetBeansProjects\Publi\res\drawable-mdpi\publicidad3.jpg \
+C:\Users\givemesomethingtobel\Documents\NetBeansProjects\Publi\res\drawable-mdpi\publicidad4.png \
+C:\Users\givemesomethingtobel\Documents\NetBeansProjects\Publi\res\drawable-xhdpi\ic_launcher.png \
+C:\Users\givemesomethingtobel\Documents\NetBeansProjects\Publi\res\layout\fragmento1.xml \
+C:\Users\givemesomethingtobel\Documents\NetBeansProjects\Publi\res\layout\fragmento2.xml \
+C:\Users\givemesomethingtobel\Documents\NetBeansProjects\Publi\res\layout\fragmento3.xml \
+C:\Users\givemesomethingtobel\Documents\NetBeansProjects\Publi\res\layout\fragmento4.xml \
+C:\Users\givemesomethingtobel\Documents\NetBeansProjects\Publi\res\layout\main.xml \
+C:\Users\givemesomethingtobel\Documents\NetBeansProjects\Publi\res\values\strings.xml \
+C:\Users\givemesomethingtobel\Documents\NetBeansProjects\Publi\bin\res\drawable-hdpi\ic_launcher.png \
+C:\Users\givemesomethingtobel\Documents\NetBeansProjects\Publi\bin\res\drawable-ldpi\ic_launcher.png \
+C:\Users\givemesomethingtobel\Documents\NetBeansProjects\Publi\bin\res\drawable-mdpi\ic_launcher.png \
+C:\Users\givemesomethingtobel\Documents\NetBeansProjects\Publi\bin\res\drawable-mdpi\publicidad2.png \
+C:\Users\givemesomethingtobel\Documents\NetBeansProjects\Publi\bin\res\drawable-mdpi\publicidad4.png \
+C:\Users\givemesomethingtobel\Documents\NetBeansProjects\Publi\bin\res\drawable-xhdpi\ic_launcher.png \
+C:\Users\givemesomethingtobel\Documents\NetBeansProjects\Publi\bin\AndroidManifest.xml \

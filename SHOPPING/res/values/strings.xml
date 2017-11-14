@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SHOPPING</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_store">STORE</string>
+    <string name="title_activity_smart">Smart</string>
+    <string name="title_activity_tablets">Tablets</string>
+    <string name="title_activity_shopping">SHOPPING</string>
+
+</resources>

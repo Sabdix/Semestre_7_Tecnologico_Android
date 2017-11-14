@@ -1,0 +1,42 @@
+# view AndroidManifest.xml #generated:15
+-keep class com.Activities.Hardware { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class com.Activities.Juegos { <init>(...); }
+
+# view AndroidManifest.xml #generated:7
+-keep class com.Activities.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:14
+-keep class com.Activities.Software { <init>(...); }
+
+# view AndroidManifest.xml #generated:17
+-keep class com.Activities.Total { <init>(...); }
+
+# onClick res/layout/hardware.xml #generated:15
+# onClick res/layout/juegos.xml #generated:15
+# onClick res/layout/software.xml #generated:15
+-keepclassmembers class * { *** Comprar1(...); }
+
+# onClick res/layout/hardware.xml #generated:30
+# onClick res/layout/juegos.xml #generated:30
+# onClick res/layout/software.xml #generated:30
+-keepclassmembers class * { *** Comprar2(...); }
+
+# onClick res/layout/hardware.xml #generated:45
+# onClick res/layout/juegos.xml #generated:45
+# onClick res/layout/software.xml #generated:45
+-keepclassmembers class * { *** Comprar3(...); }
+
+# onClick res/layout/main.xml #generated:30
+-keepclassmembers class * { *** Hardware(...); }
+
+# onClick res/layout/main.xml #generated:22
+-keepclassmembers class * { *** Juegos(...); }
+
+# onClick res/layout/main.xml #generated:14
+-keepclassmembers class * { *** Software(...); }
+
+# onClick res/layout/main.xml #generated:38
+-keepclassmembers class * { *** Total(...); }
+

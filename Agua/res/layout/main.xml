@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="#2F4F4F"
+        android:gravity="center"
+    >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Pagos"
+            android:textSize="11px"
+            android:onClick="evtPago"
+        />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="+"
+            android:textSize="11px"
+            android:onClick="evtGenerarConsumo"
+        />
+    </LinearLayout>
+    
+    <fragment
+        android:id="@+id/fragmento"
+        android:name="com.Fragmentos.FragmentoAdeudos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+    />
+    
+</LinearLayout>
+

@@ -1,0 +1,53 @@
+# view AndroidManifest.xml #generated:16
+-keep class com.Activities.ActCliente { <init>(...); }
+
+# view AndroidManifest.xml #generated:17
+-keep class com.Activities.ActProducto { <init>(...); }
+
+# view AndroidManifest.xml #generated:18
+-keep class com.Activities.ActVendedor { <init>(...); }
+
+# view AndroidManifest.xml #generated:14
+-keep class com.Activities.Segundo { <init>(...); }
+
+# view AndroidManifest.xml #generated:7
+-keep class com.Activities.Tarea2U2 { <init>(...); }
+
+# view AndroidManifest.xml #generated:15
+-keep class com.Activities.Tercero { <init>(...); }
+
+# onClick res/layout/rengloncliente.xml #generated:19
+-keepclassmembers class * { *** borrarCliente(...); }
+
+# onClick res/layout/renglonvendedor.xml #generated:13
+-keepclassmembers class * { *** borrarVendedor(...); }
+
+# onClick res/layout/main.xml #generated:19
+-keepclassmembers class * { *** evtCliente(...); }
+
+# onClick res/layout/tercero.xml #generated:31
+-keepclassmembers class * { *** evtComprar(...); }
+
+# onClick res/layout/segundo.xml #generated:24
+-keepclassmembers class * { *** evtContinuar(...); }
+
+# onClick res/layout/main.xml #generated:13
+-keepclassmembers class * { *** evtIniciar(...); }
+
+# onClick res/layout/main.xml #generated:31
+-keepclassmembers class * { *** evtProducto(...); }
+
+# onClick res/layout/cliente.xml #generated:20
+# onClick res/layout/producto.xml #generated:20
+# onClick res/layout/vendedor.xml #generated:20
+-keepclassmembers class * { *** evtRegresar(...); }
+
+# onClick res/layout/main.xml #generated:25
+-keepclassmembers class * { *** evtVendedor(...); }
+
+# onClick res/layout/rengloncliente.xml #generated:26
+-keepclassmembers class * { *** modificarCliente(...); }
+
+# onClick res/layout/renglonvendedor.xml #generated:20
+-keepclassmembers class * { *** modificarVendedor(...); }
+

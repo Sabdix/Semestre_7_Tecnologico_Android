@@ -1,0 +1,30 @@
+# view res/layout/principal.xml #generated:8
+-keep class android.support.v4.view.PagerTabStrip { <init>(...); }
+
+# view res/layout/principal.xml #generated:2
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:7
+-keep class com.Activities.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:14
+-keep class com.Activities.Pagos { <init>(...); }
+
+# view res/layout/main.xml #generated:30
+-keep class com.Fragmentos.FragmentoAdeudos { <init>(...); }
+
+# view res/layout/pagos.xml #generated:31
+-keep class com.Fragmentos.FragmentoPagos { <init>(...); }
+
+# onClick res/layout/pagos.xml #generated:15
+-keepclassmembers class * { *** evtAdeudo(...); }
+
+# onClick res/layout/pagos.xml #generated:22
+-keepclassmembers class * { *** evtAgregarPago(...); }
+
+# onClick res/layout/main.xml #generated:21
+-keepclassmembers class * { *** evtGenerarConsumo(...); }
+
+# onClick res/layout/main.xml #generated:14
+-keepclassmembers class * { *** evtPago(...); }
+

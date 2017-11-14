@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Cuartos de final"
+    />
+
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/partido1">
+    <RadioButton android:id="@+id/vs11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UMSNH"/>
+    <RadioButton android:id="@+id/vs12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ITM"/>
+</RadioGroup>
+
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/partido2">
+    
+    <RadioButton android:id="@+id/vs21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lasaye"/>
+    <RadioButton android:id="@+id/vs22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thomas Jefferson"/>
+</RadioGroup>
+
+<RadioGroup
+    android:id="@+id/partido3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    
+    <RadioButton android:id="@+id/vs31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anahuac"/>
+    <RadioButton android:id="@+id/vs32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conservatorio"/>
+</RadioGroup>
+
+<RadioGroup
+    android:id="@+id/partido4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    
+    <RadioButton android:id="@+id/vs41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perros"/>
+    <RadioButton android:id="@+id/vs42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gatos"/>
+</RadioGroup>
+
+<Button
+    android:id="@+id/siguiente"
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    android:text="Semifinal"
+    android:onClick="evtOnClickSiguiente"
+/>
+
+</LinearLayout>
+

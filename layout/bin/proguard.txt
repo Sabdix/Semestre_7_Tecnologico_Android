@@ -1,0 +1,15 @@
+# view AndroidManifest.xml #generated:16
+-keep class com.layout.Cuarto { <init>(...); }
+
+# view AndroidManifest.xml #generated:7
+-keep class com.layout.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:14
+-keep class com.layout.Segundo { <init>(...); }
+
+# view AndroidManifest.xml #generated:15
+-keep class com.layout.Tercero { <init>(...); }
+
+# onClick res/layout/table.xml #generated:40
+-keepclassmembers class * { *** evtSiguiente(...); }
+

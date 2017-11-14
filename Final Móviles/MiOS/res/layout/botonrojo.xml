@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/llPrincipal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00f"
+    android:gravity="center"
+>
+    <TextView
+        android:id="@+id/tvClick"
+        android:text="Presione el Botón Rojo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+    />
+        
+    <ImageView
+        android:src="@drawable/botonrojo"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:onClick="eventoClick2"
+    />
+</LinearLayout>

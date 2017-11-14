@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/mISelectBackground" android:title="Cambiar Fondo"></item>
+    <item android:id="@+id/mIRam" android:title="Ver RAM"></item>
+    <item android:id="@+id/mIAlmacena" android:title="Ver Almacenamiento"></item>
+    <item android:id="@+id/mIBateria" android:title="Ver Bateria"></item>
+    <item android:id="@+id/mITema" android:title="Cambiar Tema"></item>
+</menu>

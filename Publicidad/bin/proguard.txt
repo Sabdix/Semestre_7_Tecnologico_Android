@@ -1,0 +1,18 @@
+# view AndroidManifest.xml #generated:7
+-keep class com.publicidad.MainActivity { <init>(...); }
+
+# view res/layout/main.xml #generated:8
+-keep class com.publicidad.fragmentos.Publicidad1 { <init>(...); }
+
+# view res/layout/main.xml #generated:22
+-keep class com.publicidad.fragmentos.Publicidad2 { <init>(...); }
+
+# view res/layout/main.xml #generated:36
+-keep class com.publicidad.fragmentos.Publicidad3 { <init>(...); }
+
+# view res/layout/main.xml #generated:44
+-keep class com.publicidad.fragmentos.Publicidad4 { <init>(...); }
+
+# onClick res/layout/main.xml #generated:29
+-keepclassmembers class * { *** evtIntercambiar(...); }
+

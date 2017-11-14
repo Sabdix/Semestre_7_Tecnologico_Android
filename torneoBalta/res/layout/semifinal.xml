@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/linearSegundo">
+    
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="SEMIFINAL"
+    />
+    
+    <RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/partidoSemi1">
+    <RadioButton android:id="@+id/vsS11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UMSNH"/>
+    <RadioButton android:id="@+id/vsS12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ITM"/>
+</RadioGroup>
+
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/partidoSemi2">
+    
+    <RadioButton android:id="@+id/vsS21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lasaye"/>
+    <RadioButton android:id="@+id/vsS22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thomas Jefferson"/>
+    
+    
+</RadioGroup>
+    
+    <Button
+    android:id="@+id/siguiente2"
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    android:text="Semifinal"
+    android:onClick="evtOnClickSiguiente"
+/>
+</LinearLayout>

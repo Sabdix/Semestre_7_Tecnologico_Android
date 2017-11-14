@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/parentLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondonv"
+>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="365dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+    >
+        <AnalogClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            
+         />
+            
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+    >
+        <ImageButton
+            android:id="@+id/bt1"
+            android:src="@drawable/contactos1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:background="@android:color/transparent"
+        />
+        <ImageButton
+            android:id="@+id/bt2"
+            android:src="@drawable/mensajes1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:background="@android:color/transparent"
+        />
+        
+        <ImageButton
+            android:id="@+id/bt3"
+            android:src="@drawable/llamadas1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:background="@android:color/transparent"
+        />
+        
+       
+        <ImageButton
+            android:id="@+id/bt4"
+            android:src="@drawable/home1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="eventoInicio"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:background="@android:color/transparent"
+        />
+    </LinearLayout>
+</LinearLayout>

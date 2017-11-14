@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondonv"
+>
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="300dp"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    >
+        <ImageButton
+        android:id="@+id/btAppExplorador"
+        android:src="@drawable/explorador1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        />
+        
+        <ImageButton
+            android:id="@+id/btAppBuscador"
+            android:src="@drawable/buscador1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+        />
+        
+        <ImageButton
+        android:id="@+id/btAppNotepad"
+        android:src="@drawable/notepad1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        />
+        
+    </LinearLayout>
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:background="@android:color/transparent"
+    android:gravity="center_horizontal"
+    >
+    </LinearLayout>
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="250dp"
+    android:background="@android:color/transparent"
+    android:gravity="center_horizontal"
+    >
+        <ImageButton
+        android:id="@+id/btAppCalculadora"
+        android:src="@drawable/calculadora1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        />
+        
+        <ImageButton
+        android:id="@+id/btAppContactos"
+        android:src="@drawable/contactos1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        />
+        
+        <ImageButton
+        android:id="@+id/btAppCalendario"
+        android:src="@drawable/calendario1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        />
+    </LinearLayout>
+    
+</LinearLayout>

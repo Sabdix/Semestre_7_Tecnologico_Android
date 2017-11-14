@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BD1</string>
+    <string-array name="prueba">
+        <item>Uno</item>
+        <item>Dos</item>
+        <item>Tres</item>
+    </string-array>
+</resources>
